@@ -1,0 +1,11 @@
+Javascript:
+Prototype 1.7
+Scriptaculous 1.9
+Link Floatie y Cool DHTM tooltip de Dynamic Drive
+
+
+PHP:
+CaptchaSecurityImages
+Nomad MIME Mail 1.5
+ActiveRecord 1.0
+InputFilter

@@ -1,0 +1,99 @@
+/**
+ * Este archivo implementa las clases CSS que ragnajag utiliza por defecto. 
+ *
+ * Puedes modificar sus estilos aquí o volver a implementarlas en tu stylesheet propio.
+ *
+ * @autor Jordi Aguilar <jordi.aguilar.gorina@gmail.com>
+ */
+
+
+/* Ejemplo con las clases de las tablas de contenido. */
+.tabla
+{
+  margin           : 2px;
+  padding          : 0px;
+  border           : 1px solid black;
+  border-spacing   : 0px;
+  background       : white;
+  width            : inherit;
+}
+
+.tabla td
+{
+  padding-left     : 5px;
+  padding-right    : 5px;
+}
+
+.tabla th
+{
+  color            : white;
+  background       : black;
+  text-align       : left;
+  font-size        : 12px;
+  font-weight      : bold;
+}
+
+.fila1
+{
+  background       : white;
+}
+
+.fila1:hover
+{
+  background       : aliceblue;
+}
+
+.fila2
+{
+  background       : #eeeeee;
+}
+
+.fila2:hover
+{
+  background       : aliceblue;
+}
+
+/* Clases para las notificaciones y errores de la web por defecto, usan un sistema de lista. */
+.errores
+{
+  background       : #fffdea;
+  border           : 1px inset goldenrod;
+  font-size        : 12px;
+  list-style-image : url('../imagenes/iconos/error0.png');
+  padding          : 2px;
+}
+
+/* Tipo: Mensaje */
+.error0
+{
+  color            : black;
+  list-style-image : url('../imagenes/iconos/error0.png');
+}
+
+/* Tipo: Notificación */
+.error1
+{
+  color            : black;
+  list-style-image : url('../imagenes/iconos/error1.png');
+}
+
+/* Tipo: Advertencia */
+.error2
+{
+  color            : black;
+  list-style-image : url('../imagenes/iconos/error2.png');
+}
+
+/* Tipo: Error */
+.error3
+{
+  color            : black;
+  list-style-image : url('../imagenes/iconos/error3.png');
+}
+
+/* Tipo: Permiso Denegado */
+.error4
+{
+  color            : black;
+  list-style-image : url('../imagenes/iconos/error4.png');
+}

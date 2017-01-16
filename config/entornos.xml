@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding="utf-8"?> 
+<server>
+	<!-- El nombre del nodo debe ser único. -->
+	<produccion>	
+		<!-- Prefijo para las sesiones y cookies. Ej: ragnajag_proyecto1_ -->
+		<prefix>rag_proyecto_</prefix>
+		
+		<!-- Zona horaria. Ej: Europe/Madrid -->
+		<timeZone>Europe/Madrid</timeZone>
+		
+		<!-- Indica cual de las conexiones en databases.xml es la conexión por defecto. Ej: produccion, test -->
+		<db>produccion</db>
+		
+		<!-- Si la aplicación tiene usuarios logueables, indica el nombre del ActiveRecord que los representan. Ej: Usuario 
+		Si se deja en blanco, indica que la aplicación no tiene soporte para usuarios. -->
+		<user>Usuario</user>
+		
+		<!-- Define el nivel de error que mostrará la aplicación.
+			0 => No mostrará ningún error ni excepciones no controladas. 
+			1 => mostrará los errores por defecto y las excepciones no controladas. 
+			2 mostrará todos los errores y las excepciones no controladas. -->
+		<error>0</error>
+	</produccion>
+
+	<desarrollo>	
+		<prefix>rag_proyecto_dev_</prefix>
+		<timeZone>Europe/Madrid</timeZone>
+		<db>desarrollo</db>
+		<user>Usuario</user>
+		<error>1</error>
+	</desarrollo>
+</server>

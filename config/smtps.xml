@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding="utf-8"?>
+<smtps>
+	<smtp>
+		<nombre>smtp1</nombre>
+		<host></host>
+		<port>25</port>
+		<from></from>
+		<user></user>
+		<password></password>
+	</smtp>
+</smtps>
